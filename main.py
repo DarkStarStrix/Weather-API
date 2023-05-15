@@ -5,9 +5,9 @@ from twilio.rest import Client
 # Send a text message to my phone if it will rain in the next 12 hours and tell me to carry an umbrella
 # Send a text message to my phone with the current weather in Germantown
 
-API_KEY = "ee748622cee625c74d853d16cde666f4"
-account_sid = "AC7e5181247e5843814d7021505bf83c01"
-auth_token = "ee6d5861f5c150c23b14fa8b9071fbc0"
+API_KEY = ""
+account_sid = ""
+auth_token = ""
 
 conn = requests.get("https://api.openweathermap.org/data/2.5/forecast?q=Germantown,us&units=metirc&appid=" + API_KEY)
 data = conn.json()
